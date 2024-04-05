@@ -1,0 +1,596 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  
+ 
+}
+
+.font1{
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* calegraphy font */
+.font2{
+  font-family: "Montez", cursive;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+  color: green;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+}
+
+.nav-link:hover
+ {
+  color: rgb(183, 167, 76);
+}
+
+.offcanvas-body {
+  opacity: 1;
+}
+
+@media (min-width: 1000px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: rgb(183, 167, 76);
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+  }
+
+  .nav-link:hover::before {
+    width: 90%;
+    visibility: visible;
+  }
+}
+
+.box {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/567189a9841aba7b5264fb36/1485481692719-V54IL5EJL67VTV92FN2K/Makeup+Smear.jpg);
+  background-attachment: fixed;
+}
+
+.box2 {
+  background-attachment: fixed;
+}
+
+.box3 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/567189a9841aba7b5264fb36/1485482424637-GQGS51Q3203KLCBWIA66/Makeup+Powder.jpg);
+  background-attachment: fixed;
+}
+
+.box4 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/567189a9841aba7b5264fb36/1485475907278-LFSD9FCF1S680UOES7F7/stonier-studio-0002-5+copy.jpg);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.4px);
+  -webkit-backdrop-filter: blur(12.4px);
+  border: 1px solid rgba(255, 255, 255, 0.51);
+}
+
+.contact1 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/567189a9841aba7b5264fb36/1484873430479-4FKLZCBO9RT4FUNTG4B4/IMG_4708.JPG);
+  background-attachment: fixed;
+  height: 30vh;
+
+  background-repeat: no-repeat;
+}
+
+.card1 {
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.card1:hover {
+  scale: 1.05;
+}
+
+.card3 {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 30px 18px 26px;
+  cursor: pointer;
+}
+.card3:focus {
+  outline: none;
+  border: none;
+  transform: scale(1.01);
+  -webkit-box-shadow: 0px 0px 18px 0px #b5b6cc;
+  -moz-box-shadow: 0px 0px 18px 0px #c38bbd;
+  box-shadow: 0px 0px 18px 0px #c088ba;
+}
+
+.card3:hover {
+  transform: scale(1.01);
+  -webkit-box-shadow: 0px 0px 18px 0px #b5b6cc;
+  -moz-box-shadow: 0px 0px 18px 0px #c38bbd;
+  box-shadow: 0px 0px 18px 0px #c088ba;
+}
+
+.bg-image {
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/1_-4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image2 {
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/1_-3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image3 {
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/beauty_salon_individual_bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image4 {
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/dark-map.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image5 {
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/1_-2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image6 {
+  background-image: url(https://codex-themes.com/thegem/sites/shop-natural-cosmetics/wp-content/uploads/2022/04/title-area-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.bg-image7 {
+  background-image: url(https://codex-themes.com/thegem/sites/hair-dress/wp-content/uploads/2018/10/12-parallax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(40%);
+}
+
+.color {
+  background-color: rgb(162, 153, 153);
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+  transition-duration: 100ms;
+}
+
+.zoom{
+  cursor: pointer;
+}
+
+.bg-image8{
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/12.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image9{
+  background-image: url(https://codex-themes.com/thegem/sites/shop-natural-cosmetics/wp-content/uploads/2022/04/20.jpg?id=2744);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.progress-container {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Height of the progress bar */
+  background-color: #ddd; /* Background color of the progress container */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #b77d11; /* Color of the progress bar */
+}
+
+.bg-image10{
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/beauty_salon_parallax_bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.zoom1:hover{
+  transform: scale(1.01);
+}
+
+.nav-a:hover{
+  color: #d0a961;
+}
+
+.bg-image11{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/567189a9841aba7b5264fb36/1485474869066-IKBPL05SG7950C45XG34/stonier-studio-0002.jpg?format=2500w);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  filter: grayscale(50%);
+}
+
+.login{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-image12{
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/2-paralax.jpg);
+  background-attachment: fixed;
+  height: 50vh;
+  background-position: center;
+}
+
+.bg-image13{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/567189a9841aba7b5264fb36/1485475907278-LFSD9FCF1S680UOES7F7/stonier-studio-0002-5+copy.jpg);
+  background-attachment: fixed;
+}
+
+
+
+
+@media (max-width:768px) {
+  .data-desc{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.bg-image14{
+  background-image: url(../images/footer.jpg);
+  background-position: bottom;
+  height: 55vh;
+  background-size: cover;
+}
+
+@media (max-width:768px) {
+  .footer{
+    height: auto;
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width:1344px) {
+  .footer{
+    height: auto;
+    padding-bottom: 250px;
+  }
+}
+
+.nav-li:hover{
+  color: rgb(204, 169, 104);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+
+
+#mybutton {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  z-index: 10;
+}
+.feedback {
+  background-color :  #04cc25;
+  color: whitesmoke;
+  /* padding: 5px 5px 5px 5px; */
+  font-size: 40px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  text-decoration: none;
+  
+}
+.feedback:hover{
+  /* font-family: "Poppins", sans-serif; */
+  background-color:#04aa04;
+  color: whitesmoke;
+}
+
+
+
+.card4 {
+  transform: scale(1.01);
+  -webkit-box-shadow: 0px 0px 18px 0px #b5b6cc;
+  -moz-box-shadow: 0px 0px 18px 0px #b2b2b225;
+  box-shadow: 0px 0px 18px 0px #605e60;
+}
+
+
+.card5 {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 30px 18px 26px;
+  cursor: pointer;
+}
+.card5:focus {
+  outline: none;
+  border: none;
+  transform: scale(1.01);
+  -webkit-box-shadow: 0px 0px 15px 0px #b5b6cc;
+  -moz-box-shadow: 0px 0px 15px 0px #b2b2b225;
+  box-shadow: 0px 0px 15px 0px #605e60;
+}
+
+.card5:hover {
+  transform: scale(1.01);
+  -webkit-box-shadow: 0px 0px 15px 0px #b5b6cc;
+  -moz-box-shadow: 0px 0px 15px 0px #b2b2b225;
+  box-shadow: 0px 0px 15px 0px #605e60;
+}
+
+
+
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 500px) {
+  .popup-image-container {
+    display: block; /* Stack image and arrows vertically on mobile */
+  }
+
+  .prev-btn,
+  .next-btn {
+    top: auto; /* Remove vertical centering on mobile */
+    transform: none; /* Remove vertical offset on mobile */
+  }
+
+  .prev-btn {
+    position: absolute;
+    top: 91%; /* Position left arrow at top left on mobile */
+    left: 160px;
+    font-size: 45px;
+  }
+
+  .next-btn {
+    position: absolute;
+    top: 91%; /* Position right arrow at top right on mobile */
+    right: 160px;
+    font-size: 45px;
+  }
+}
+
+.banner-container {
+  position: relative; /* Enable positioning of overlay */
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Match image width */
+  height: 100%; /* Match image height */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white; /* White text color */
+  display: flex; /* Allow centering of text */
+  justify-content: center; /* Horizontally center text */
+  align-items: center; /* Vertically center text */
+  opacity: 0; /* Initially hide overlay */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.banner-container:hover .image-overlay {
+  opacity: 1; /* Show overlay on hover */
+  cursor: pointer;
+}
+
+
+.bg-image15{
+  background-image: url(https://codex-themes.com/thegem/sites/hairdressing-makeup/wp-content/uploads/2018/11/beauty_salon_title_bg_mini.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  backdrop-filter: gray;
+  background-size: cover;
+}
+
+
+
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: center;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+/* .wrapper .button:nth-child(3):hover .icon{
+  background: #1DA1F2;
+} */
+.wrapper .button:nth-child(2):hover .icon{
+  background: #E1306C;
+}
+/* .wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+} */
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+/* .wrapper .button:nth-child(3) span{
+  color: #1DA1F2;
+} */
+.wrapper .button:nth-child(2) span{
+  color: #E1306C;
+}
+/* .wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+} */
+
+
+
+
+.wrapper2 .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: center;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper2 .button:hover{
+  width: 200px;
+}
+.wrapper2 .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* .wrapper2 .button:nth-child(2):hover .icon{
+  background: #4267B2;
+} */
+/* .wrapper .button:nth-child(3):hover .icon{
+  background: #1DA1F2;
+} */
+.wrapper2 .button:nth-child(1):hover .icon{
+  background: #E1306C;
+}
+/* .wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+} */
+.wrapper2 .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper2 .button:hover .icon i{
+  color: #fff;
+}
+.wrapper2 .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+/* .wrapper2 .button:nth-child(1) span{
+  color: #4267B2;
+} */
+/* .wrapper .button:nth-child(3) span{
+  color: #1DA1F2;
+} */
+.wrapper2 .button:nth-child(1) span{
+  color: #E1306C;
+}
+/* .wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+} */
+
+
+
+
+
+
+
+
